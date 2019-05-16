@@ -1,0 +1,20 @@
+<div class="col-12 col-md-6">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First name</th>
+        <th scope="col">Last name</th>
+        <th scope="col">Participation</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let funcionario of services.funcionarios">
+      <tr>
+        <th scope="row">{{funcionario.id}}</th>
+        <td>{{funcionario.nome}}</td>
+        <td>{{funcionario.sobrenome}}</td>
+        <td>{{funcionario.participacao}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,48 @@
+@media(min-width: 992px){
+  .btn-send {
+      transform: scale(1);
+      transition: all 300ms ease; }
+      .btn-send:hover {
+          transform: scale(1.05);
+          transition: all 300ms ease; }
+}
+
+html,
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  height: 100%;
+  line-height: 1; }
+
+.form-control {
+  border-radius: 0; }
+
+.btn-send {
+  border: 1px solid #fafafa;
+  border-radius: 0;
+  background-color: transparent;
+  color: #fafafa;
+  font-size: 1.05rem;
+  font-weight: 600; }
+  .btn-send:hover {
+    background-color: #00657c;
+    border: 1px solid #00657c; }
+
+section {
+  padding: 2rem 0; }
+
+.section-form {
+  background-color: #00b8e2; }
+
+.content {
+  padding: 2rem 0;
+  text-align: center; }
+
+h1 {
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  font-weight: 700; }
+
+.table thead th{
+white-space: nowrap;
+}
